@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const API_URL = 'https://login-signup-backend-1-ejs9.onrender.com'
+const API_URL = 'https://login-signup-backend-1-ejs9.onrender.com/pages'
 
 function App() {
   const [isLogin, setIsLogin] = useState(true)
